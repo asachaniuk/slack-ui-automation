@@ -1,0 +1,30 @@
+{
+  "name": "slack-ui-automation",
+  "version": "1.0.0",
+  "description": "Automate functional test for starring a message",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha test",
+    "mochawesome": "npx mocha test.js --reporter mochawesome --reporter-options autoOpen=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asachaniuk/slack-ui-automation.git"
+  },
+  "keywords": [
+    "slack",
+    "selenium",
+    "mocha",
+    "automation"
+  ],
+  "author": "Alex Sachaniuk <asachaniuk@gmail.com>",
+  "homepage": "https://github.com/asachaniuk/slack-ui-automation.git#readme",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.0.1",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "mochawesome": "^6.1.1"
+  }
+}
