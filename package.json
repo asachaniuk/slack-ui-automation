@@ -21,7 +21,7 @@
   "homepage": "https://github.com/asachaniuk/slack-ui-automation.git#readme",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^8.0.1",
+    "mocha": "^8.4.0",
     "selenium-webdriver": "^4.0.0-alpha.7"
   },
   "devDependencies": {
